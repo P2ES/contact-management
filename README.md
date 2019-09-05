@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8. Make sure you build using the correct CLI version if you were using the global `ng` & reference the right [API version](https://v7.angular.io/api).
 
-## Development server
+## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Clone the repo or fork it into your own account. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Requirements
 
@@ -27,3 +27,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 - Different form components, e.g date picker for birthday, dropdown with typeahead support for friends etc. when adding/editing a contact.
 - Persistence of the data on save of the contact so it stays even on page refresh.
 
+## Completion
+
+Once completed, you can either send the link of the git repo or simply zip the project & send via email. A fully functioning app is ideal and a review session will be held after to reason the code.
+
+A maximum of 3 days is allowed to finish the project upon receiving the initial code.
