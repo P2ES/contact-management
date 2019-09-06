@@ -22,8 +22,8 @@ Clone the repo or fork it into your own account. Run `ng serve` for a dev server
 ## Bonus
 
 - Create valid test cases on the created components. Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-- Apply some simple styles to the application, could consider using [bootstrap](https://www.npmjs.com/package/bootstrap).
-- Add Session management to allow the authenticated user to stay even on page refresh.
+- Apply some simple styles to the application (e.g. [bootstrap](https://www.npmjs.com/package/bootstrap)).
+- Add session management to allow the authenticated user to stay even on page refresh.
 - Add different form components for different types of data, e.g date picker for birthday, dropdown with typeahead support for friends etc. when adding/editing a contact.
 - Persist data on save.
 
