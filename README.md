@@ -11,21 +11,31 @@ Clone the repo or fork it into your own account. Run `ng serve` for a dev server
 - Create a login page to authenticate the user for further actions.
   - There should be a simulated authentication service to grant/deny the access. Hardcoded username/password is fine.
   - There's no need to retain the session, e.g. refreshing the page will redirect the user back to the login page.
-- Once the users log in, they should be able to see the list of users, which could either be presented within a paged/pageless grid/list.
+  - Two roles should be defined, one as `admin`, another `user`.
+- Once the users log in, they should be able to see the list of users, which could be either presented as a grid or a list. Users can also sort/filter/search in order to locate a contact easily.
   - Simulation data has been provided, `CmContactService` will provide it.
-  - Add more endpoints to `CmContactService` as needed.
-- Users should be able to edit, revert & save an existing contact, and add a new contact.
+  - Add more endpoint to `CmContactService` as needed, see the `search` method as an example.
+- Depending on the role of the current logged in user, as `user`, they can only see the list; as `admin`, upon clicking of the row/card of the contact, users should be able to see the details of the contact on the right-hand-side, so they can edit, revert & save an existing contact. They can also add a new contact.
   - Persistence is not required, the simulation data will not be written, any changes will be reverted on page refresh.
   - Form fields could simply use `<input>`, `<select>` etc. from standard HTML5 tags.
 - Users should be able to logout & be redirected to login.
 
+### User Experience
+
+- Apply some simple styles to the application, could consider using [bootstrap](https://www.npmjs.com/
+package/bootstrap).
+- Given the number of users is fairly large, the grid/list should be either paged or virtually scrolled.
+- Pay attention to the user experience when using the application, e.g the way how user navigates between screens should be convenient & straightforward.
+
 ## Bonus
 
 - Create valid test cases on the created components. Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-- Apply some simple styles to the application (e.g. [bootstrap](https://www.npmjs.com/package/bootstrap)).
 - Add session management to allow the authenticated user to stay even on page refresh.
 - Add different form components for different types of data, e.g date picker for birthday, dropdown with typeahead support for friends etc. when adding/editing a contact.
 - Persist data on save.
+
+### User Experience
+- Consider responsiveness how the UX of the application on smaller mobile devices.
 
 ## Completion
 
